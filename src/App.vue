@@ -1,15 +1,21 @@
 <template>
-  <opening-scene></opening-scene>
-  <div class="h-screen w-screen bg-[#F44F1A]">
-    <p>Hey!</p>
-  </div>
+  <navbar-section></navbar-section>
+  <opening-section></opening-section>
+  <header-section></header-section>
+  <introducing-section></introducing-section>
 </template>
 
 <script setup>
-import OpeningScene from "@/components/OpeningScene.vue";
+import NavbarSection from "./components/NavbarSection.vue";
+import OpeningSection from "./components/OpeningSection.vue";
+import HeaderSection from "./components/HeaderSection.vue";
+import IntroducingSection from "@/components/IntroducingSection.vue"
 
 </script>
 
-<style>
 
+<style lang="scss" scoped>
+  body {
+    background-color: #F0EEED;
+  }
 </style>
