@@ -4,6 +4,7 @@
   <header-section></header-section>
   <introducing-section></introducing-section>
   <education-section></education-section>
+  <quotes-section></quotes-section>
 </template>
 
 <script setup>
@@ -12,6 +13,7 @@ import OpeningSection from "./components/OpeningSection.vue";
 import HeaderSection from "./components/HeaderSection.vue";
 import IntroducingSection from "@/components/IntroducingSection.vue";
 import EducationSection from "@/components/EducationSection.vue";
+import QuotesSection from "@/components/QuotesSection.vue"
 
 </script>
 
