@@ -13,7 +13,7 @@
           </div>
         </div>
       </div>
-      <img class="absolute bottom-[24px] left-[50%] translate-x-[-50%]" src="@/assets/union_ornament.png" alt="ornament">
+      <img class="absolute bottom-0 left-[50%] translate-x-[-50%]" src="@/assets/union_ornament.png" alt="ornament">
     </div>
   </div>
 </template>
