@@ -9,27 +9,27 @@
         <div class="flex justify-around items-center mt-[110px]">
           <div class="relative w-[239px] py-[16px] px-[24px] rounded-[30px] border-solid border-[#000] border-[1px]">
             <p class="poppins font-normal text-[16px] text-[#F44F1A] absolute top-4 right-6">1</p>
-            <p class="poppins font-bold text-[20ppx]">SDI YAKMI</p>
+            <p class="poppins font-bold text-[20ppx]">YAKMI</p>
             <p class="poppins font-normal text-[16px] mt-4">Elementary School</p>
             <p class="poppins font-normal text-[16px] px-2 py-1 rounded-[30px] border-solid border-[#000] border-[1px] w-max block mt-12">2007 - 2013</p>
           </div>
           <div class="relative w-[239px] py-[16px] px-[24px] rounded-[30px] border-solid border-[#000] border-[1px]">
             <p class="poppins font-normal text-[16px] text-[#F44F1A] absolute top-4 right-6">2</p>
-            <p class="poppins font-bold text-[20ppx]">SDI YAKMI</p>
-            <p class="poppins font-normal text-[16px] mt-4">Elementary School</p>
-            <p class="poppins font-normal text-[16px] px-2 py-1 rounded-[30px] border-solid border-[#000] border-[1px] w-max block mt-12">2007 - 2013</p>
+            <p class="poppins font-bold text-[20ppx]">23 JHS</p>
+            <p class="poppins font-normal text-[16px] mt-4">Junior High School</p>
+            <p class="poppins font-normal text-[16px] px-2 py-1 rounded-[30px] border-solid border-[#000] border-[1px] w-max block mt-12">2013 - 2016</p>
           </div>
           <div class="relative w-[239px] py-[16px] px-[24px] rounded-[30px] border-solid border-[#000] border-[1px]">
             <p class="poppins font-normal text-[16px] text-[#F44F1A] absolute top-4 right-6">3</p>
-            <p class="poppins font-bold text-[20ppx]">SDI YAKMI</p>
-            <p class="poppins font-normal text-[16px] mt-4">Elementary School</p>
-            <p class="poppins font-normal text-[16px] px-2 py-1 rounded-[30px] border-solid border-[#000] border-[1px] w-max block mt-12">2007 - 2013</p>
+            <p class="poppins font-bold text-[20ppx]">7 SHS</p>
+            <p class="poppins font-normal text-[16px] mt-4">Senior High School</p>
+            <p class="poppins font-normal text-[16px] px-2 py-1 rounded-[30px] border-solid border-[#000] border-[1px] w-max block mt-12">2016 - 2019</p>
           </div>
           <div class="relative w-[239px] py-[16px] px-[24px] rounded-[30px] border-solid border-[#000] border-[1px]">
             <p class="poppins font-normal text-[16px] text-[#F44F1A] absolute top-4 right-6">4</p>
-            <p class="poppins font-bold text-[20ppx]">SDI YAKMI</p>
-            <p class="poppins font-normal text-[16px] mt-4">Elementary School</p>
-            <p class="poppins font-normal text-[16px] px-2 py-1 rounded-[30px] border-solid border-[#000] border-[1px] w-max block mt-12">2007 - 2013</p>
+            <p class="poppins font-bold text-[20ppx]">Mecu Buana</p>
+            <p class="poppins font-normal text-[16px] mt-4">University</p>
+            <p class="poppins font-normal text-[16px] px-2 py-1 rounded-[30px] border-solid border-[#000] border-[1px] w-max block mt-12">2019 - Present</p>
           </div>
         </div>
       </div>
