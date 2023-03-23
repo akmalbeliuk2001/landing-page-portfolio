@@ -11,7 +11,7 @@
           <p class="nunito font-normal text-[#000] text-[16px] lg:text-[25px] max-w-[730px] mt-2 lg:mt-4">An informatics student who is interested in visual design. <span class="font-bold">Currently</span> focusing on improving skills in programming, especially for website development. <span class="font-bold">Skilled</span> in communication, critical thinking, creative thinking and leadership.</p>
         </div>
       </div>
-      <img class="absolute -bottom-8 lg:bottom-0 left-[50%] translate-x-[-50%] w-[32px] lg:w-[48px]" src="@/assets/union_ornament.png" alt="ornament">
+      <img class="absolute -bottom-2 lg:bottom-0 left-[50%] translate-x-[-50%] w-[32px] lg:w-[48px]" src="@/assets/union_ornament.png" alt="ornament">
     </div>
   </div>
 </template>
