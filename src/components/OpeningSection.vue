@@ -1,10 +1,23 @@
 <template>
-  <div ref="content" class="w-full transition-all duration-500" :class="changeBackgroundColor ? 'bg-[#F44F1A]' : 'bg-[#FFF]'">
+  <div
+    ref="content"
+    class="w-full transition-all duration-500"
+    :class="changeBackgroundColor ? 'bg-[#F44F1A]' : 'bg-[#FFF]'"
+  >
     <div class="mx-auto px-4 md:px-7 lg:px-0 lg:max-w-[1064px] overflow-hidden">
-      <div class="h-[500px] mt-[60px] lg:mt-0 lg:h-screen w-full flex justify-center items-center flex-col">
-        <p :style="{ color: textColor }" class="poppins uppercase font-semibold text-[31.25px] lg:text-[76.29px] leading-[100%] text-center max-w-[770px] w-full">"Do not know, then do not love!"</p>
+      <div
+        class="h-[500px] lg:h-screen mt-[60px] lg:mt-0 w-full flex justify-center items-center flex-col"
+      >
+        <p
+          :style="{ color: textColor }"
+          class="poppins uppercase font-semibold text-[31.25px] lg:text-[76.29px] leading-[100%] text-center max-w-[315px] lg:max-w-[770px] w-full"
+        >
+          "Do not know, then do not love!"
+        </p>
         <svg
-          :class="changeBackgroundColor ? 'reverse-rotation' : 'decoration-rotation'"
+          :class="
+            changeBackgroundColor ? 'reverse-rotation' : 'decoration-rotation'
+          "
           class="w-[88px] h-[88px] lg:w-[159px] lg:h-[159px] mt-8"
           viewBox="0 0 162 162"
           fill="none"
@@ -44,28 +57,55 @@
           />
         </svg>
       </div>
-      <div class="h-[500px] lg:h-screen w-full flex justify-center items-center">
-        <div :style="{ color: textColor }" class="w-full max-w-screen-lg mx-auto flex flex-col lg:flex-row items-start lg:items-end justify-between relative">
-          <p class="w-full font-poppins max-w-[200px] lg:max-w-[360px] capitalize text-[48px] lg:text-[76.29px] leading-[100%] underline decoration-2 ">You are viewing my Portofolio</p>
+      <div
+        class="h-[500px] lg:h-screen w-full flex justify-center items-center"
+      >
+        <div
+          :style="{ color: textColor }"
+          class="w-full max-w-screen-lg mx-auto flex flex-col lg:flex-row items-start lg:items-end justify-between relative"
+        >
+          <p
+            class="w-full poppins max-w-[200px] lg:max-w-[360px] capitalize text-[48px] lg:text-[76.29px] leading-[100%] underline decoration-2"
+          >
+            You are viewing my Portofolio
+          </p>
           <div>
-            <p class="max-w-[513px] text-[16px] lg:text-[25px] leading-[150%] font-normal text-justify justify-between mt-4">Welcome to my portofolio, hope you had a great day. I am going to present you about me and work I have ever made. I believe you are ready to start, please enjoy this website.</p>
+            <p
+              class="nunito max-w-[513px] text-[16px] lg:text-[25px] leading-[150%] font-normal text-justify justify-between mt-4"
+            >
+              Welcome to my portofolio, hope you had a great day. I am going to
+              present you about me and work I have ever made. I believe you are
+              ready to start, please enjoy this website.
+            </p>
             <svg
-              :class="changeBackgroundColor ? 'decoration-rotation' : 'reverse-rotation'"
+              :class="
+                changeBackgroundColor
+                  ? 'decoration-rotation'
+                  : 'reverse-rotation'
+              "
               class="hidden w-[192px] h-[190px] absolute top-[-50%] right-0"
+              width="192"
+              height="190"
               viewBox="0 0 192 190"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M87.4452 185.781V164H90.2889V173.875H101.383V164H104.226V185.781H101.383V176.219H90.2889V185.781H87.4452Z"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M109.014 72.2923C136.209 40.7846 162.747 87.3899 122.12 94.9385C162.747 102.816 135.881 149.092 109.014 117.584C122.775 156.969 69.3694 156.641 83.1304 117.584C55.936 149.092 29.3971 102.816 70.0247 94.9385C29.0694 87.3899 55.936 41.1128 83.1304 72.2923C69.0417 33.2359 122.775 33.2359 109.014 72.2923ZM95.9082 89.0309C99.1849 89.0309 102.134 91.6565 102.134 94.9385C102.134 98.2205 99.1849 101.175 95.9082 101.175C92.632 101.175 90.0106 98.2205 90.0106 94.9385C90.0106 91.6565 92.632 89.0309 95.9082 89.0309Z"
                 :fill="textColor"
               />
               <path
-                d="M67.6805 178.907L70.1709 172.065L62.712 169.35L63.5137 167.147L70.9725 169.862L73.5376 162.814L65.1978 159.779L65.9994 157.577L77.0115 161.585L69.5512 182.082L58.5391 178.074L59.3407 175.871L67.6805 178.907Z"
+                d="M87.4451 185.781V164H90.2889V173.875H101.383V164H104.226V185.781H101.383V176.219H90.2889V185.781H87.4451Z"
                 :fill="textColor"
               />
               <path
-                d="M51.1202 150.589L45.2791 145.688L46.7655 143.916L54.7851 150.646L40.7843 167.331L38.6059 165.503L51.1202 150.589Z"
+                d="M67.6806 178.907L70.1709 172.065L62.7121 169.35L63.5137 167.147L70.9725 169.862L73.5377 162.814L65.1979 159.779L65.9995 157.577L77.0115 161.585L69.5512 182.082L58.5392 178.074L59.3408 175.871L67.6806 178.907Z"
+                :fill="textColor"
+              />
+              <path
+                d="M51.1201 150.589L45.279 145.688L46.7655 143.916L54.785 150.646L40.7843 167.331L38.6058 165.503L51.1201 150.589Z"
                 :fill="textColor"
               />
               <path
@@ -73,27 +113,27 @@
                 :fill="textColor"
               />
               <path
-                d="M27.9914 106.453C28.3423 108.444 28.2008 110.341 27.567 112.145C26.9126 113.953 25.8395 115.485 24.3477 116.742C22.8317 117.983 21.0274 118.788 18.9347 119.157C16.8419 119.526 14.8815 119.385 13.0532 118.734C11.2008 118.066 9.66822 116.993 8.45555 115.515C7.22236 114.04 6.43031 112.307 6.0794 110.317C5.72487 108.306 5.87478 106.397 6.52914 104.589C7.16299 102.785 8.22763 101.265 9.72308 100.028C11.2185 98.7912 13.0229 97.9865 15.1361 97.6139C17.2493 97.2413 19.2201 97.3803 21.0484 98.0311C22.8766 98.6818 24.4074 99.7446 25.6406 101.22C26.8532 102.698 27.6368 104.443 27.9914 106.453ZM25.5601 106.882C25.296 105.384 24.7103 104.102 23.8029 103.035C22.8919 101.948 21.7304 101.179 20.3185 100.73C18.9029 100.26 17.3437 100.176 15.6408 100.476C13.9174 100.78 12.4811 101.393 11.3321 102.315C10.1589 103.22 9.32845 104.329 8.8407 105.642C8.35296 106.954 8.24294 108.37 8.51064 109.888C8.77835 111.407 9.3659 112.699 10.2733 113.766C11.1807 114.833 12.3422 115.601 13.7577 116.071C15.1492 116.524 16.7066 116.598 18.43 116.294C20.1329 115.994 21.5709 115.392 22.7441 114.487C23.9137 113.561 24.7423 112.442 25.2301 111.129C25.7142 109.795 25.8242 108.38 25.5601 106.882Z"
+                d="M27.9914 106.453C28.3423 108.444 28.2009 110.341 27.567 112.145C26.9126 113.953 25.8396 115.485 24.3477 116.742C22.8318 117.983 21.0274 118.788 18.9347 119.157C16.842 119.526 14.8815 119.385 13.0532 118.734C11.2008 118.066 9.66825 116.993 8.45558 115.515C7.22239 114.04 6.43034 112.307 6.07943 110.317C5.7249 108.306 5.87481 106.397 6.52917 104.589C7.16302 102.785 8.22766 101.265 9.72311 100.028C11.2186 98.7912 13.0229 97.9865 15.1361 97.6139C17.2494 97.2413 19.2201 97.3803 21.0484 98.0311C22.8767 98.6818 24.4074 99.7446 25.6406 101.22C26.8533 102.698 27.6369 104.443 27.9914 106.453ZM25.5602 106.882C25.2961 105.384 24.7103 104.102 23.8029 103.035C22.8919 101.948 21.7304 101.179 20.3185 100.73C18.9029 100.26 17.3437 100.176 15.6408 100.476C13.9174 100.78 12.4812 101.393 11.3321 102.315C10.1589 103.22 9.32848 104.329 8.84073 105.642C8.35299 106.954 8.24297 108.37 8.51067 109.888C8.77838 111.407 9.36593 112.699 10.2733 113.766C11.1807 114.833 12.3422 115.601 13.7578 116.071C15.1492 116.524 16.7066 116.598 18.43 116.294C20.1329 115.994 21.571 115.392 22.7441 114.487C23.9137 113.561 24.7424 112.442 25.2301 111.129C25.7142 109.795 25.8242 108.38 25.5602 106.882Z"
                 :fill="textColor"
               />
               <path
-                d="M6.66208 77.8181L21.99 80.8698L21.5776 83.2088L6.13028 80.834L6.66208 77.8181ZM28.0529 83.0178C27.9588 83.5512 27.6946 83.97 27.2602 84.2742C26.8257 84.5784 26.3418 84.6835 25.8084 84.5894C25.2749 84.4953 24.8561 84.2311 24.5519 83.7967C24.2478 83.3623 24.1427 82.8783 24.2368 82.3449C24.3272 81.832 24.5878 81.4337 25.0186 81.15C25.453 80.8458 25.937 80.7408 26.4704 80.8348C27.0038 80.9289 27.4227 81.1931 27.7268 81.6275C28.0346 82.0414 28.1433 82.5049 28.0529 83.0178Z"
+                d="M6.66211 77.8181L21.99 80.8698L21.5776 83.2088L6.13031 80.834L6.66211 77.8181ZM28.0529 83.0178C27.9589 83.5512 27.6946 83.97 27.2602 84.2742C26.8258 84.5784 26.3418 84.6835 25.8084 84.5894C25.275 84.4953 24.8562 84.2311 24.552 83.7967C24.2478 83.3623 24.1427 82.8783 24.2368 82.3449C24.3272 81.832 24.5878 81.4337 25.0187 81.15C25.4531 80.8458 25.937 80.7408 26.4704 80.8348C27.0039 80.9289 27.4227 81.1931 27.7269 81.6275C28.0347 82.0414 28.1434 82.5049 28.0529 83.0178Z"
                 :fill="textColor"
               />
               <path
-                d="M47.6741 28.7997L49.2208 30.643L39.6692 38.6577L38.1225 36.8144L47.6741 28.7997Z"
+                d="M47.674 28.7997L49.2208 30.643L39.6691 38.6577L38.1224 36.8144L47.674 28.7997Z"
                 :fill="textColor"
               />
               <path
-                d="M104.183 4.21875V26H101.339V16.125L90.2457 16.125V26H87.402V4.21875H90.2457V13.7812L101.339 13.7812V4.21875H104.183Z"
+                d="M104.183 4.21875V26H101.339V16.125L90.2457 16.125V26H87.4019V4.21875H90.2457V13.7812L101.339 13.7812V4.21875H104.183Z"
                 :fill="textColor"
               />
               <path
-                d="M123.948 11.0933L121.457 17.9354L128.916 20.6502L128.115 22.8526L120.656 20.1379L118.091 27.1855L126.43 30.221L125.629 32.4234L114.617 28.4153L122.077 7.91828L133.089 11.9263L132.288 14.1287L123.948 11.0933Z"
+                d="M123.948 11.0933L121.457 17.9354L128.916 20.6502L128.115 22.8526L120.656 20.1379L118.091 27.1855L126.43 30.221L125.629 32.4234L114.617 28.4153L122.077 7.91828L133.089 11.9263L132.287 14.1287L123.948 11.0933Z"
                 :fill="textColor"
               />
               <path
-                d="M140.508 39.4109L146.349 44.3121L144.863 46.0836L136.843 39.3544L150.844 22.669L153.023 24.4969L140.508 39.4109Z"
+                d="M140.508 39.4109L146.349 44.3121L144.863 46.0836L136.843 39.3544L150.844 22.669L153.022 24.4969L140.508 39.4109Z"
                 :fill="textColor"
               />
               <path
@@ -121,34 +161,34 @@
 </template>
 
 <script setup>
-import { ref,onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted } from "vue";
 
-const changeBackgroundColor = ref(false)
-const textColor = ref('#F44F1A')
+const changeBackgroundColor = ref(false);
+const textColor = ref("#F44F1A");
 
 const handleScroll = () => {
   if (window.scrollY > 300) {
-    changeBackgroundColor.value = true
-    textColor.value = '#FFF'
+    changeBackgroundColor.value = true;
+    textColor.value = "#FFF";
   } else {
-    changeBackgroundColor.value = false
-    textColor.value = '#F44F1A'
+    changeBackgroundColor.value = false;
+    textColor.value = "#F44F1A";
   }
 };
 
 onMounted(() => {
-  window.addEventListener('scroll', handleScroll);
+  window.addEventListener("scroll", handleScroll);
 });
 
 onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll)
-}) 
+  window.removeEventListener("scroll", handleScroll);
+});
 </script>
 
 <style lang="scss" scoped>
 @mixin desktop {
   @media (min-width: 1024px) {
-    @content; 
+    @content;
   }
 }
 .decoration-rotation {
@@ -180,5 +220,4 @@ onUnmounted(() => {
     display: block;
   }
 }
-
 </style>
