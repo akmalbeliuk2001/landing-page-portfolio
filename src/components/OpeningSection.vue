@@ -167,6 +167,7 @@ const changeBackgroundColor = ref(false);
 const textColor = ref("#F44F1A");
 
 const handleScroll = () => {
+  // console.log(window.innerHeight);
   if (window.scrollY > 300) {
     changeBackgroundColor.value = true;
     textColor.value = "#FFF";

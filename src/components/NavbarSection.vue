@@ -1,7 +1,9 @@
 <template>
   <div
-    :style="{ 'border-color': borderColor }"
-    :class="changeBackgroundColor ? 'bg-[#F44F1A]' : 'bg-[#FFF]'"
+    :style="{
+      'border-color': borderColor,
+      'background-color': backgroundColor,
+    }"
     class="navbar fixed z-[99] h-[60px] w-full border-b-[1px] border-solid transition-all duration-500"
   >
     <div class="mx-auto px-4 md:px-7 lg:px-0 lg:max-w-[1064px] overflow-hidden">
@@ -28,16 +30,16 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 
-const changeBackgroundColor = ref(false);
 const borderColor = ref("#F44F1A");
+const backgroundColor = ref("#FFF");
 
 const handleScroll = () => {
   if (window.scrollY > 300) {
-    changeBackgroundColor.value = true;
     borderColor.value = "#FFF";
+    backgroundColor.value = "#F44F1A";
   } else {
-    changeBackgroundColor.value = false;
     borderColor.value = "#F44F1A";
+    backgroundColor.value = "#FFF";
   }
 };
 
