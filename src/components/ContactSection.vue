@@ -77,9 +77,18 @@
             >EMAIL</P
           >
           <p
-            class="poppins font-normal text-[16px] lg:text-[20px] text-[#fff] px-4 py-2 border-solid border-[1px] border-[#fff] rounded-[30px] w-max cursor-pointer"
+            id="email"
+            type="text"
+            value="akmalbeliuk@gmail.com"
+            :class="
+              copied
+                ? 'border-[#F44F1A] bg-[#F44F1A] text-[#000]'
+                : 'border-[#fff] text-[#fff]'
+            "
+            class="poppins font-normal text-[16px] lg:text-[20px] px-4 py-2 border-solid border-[1px] rounded-[30px] w-max cursor-pointer hover:border-[#F44F1A] hover:bg-[#F44F1A] hover:text-[#000]"
+            @click="copyClipboard()"
           >
-            akmalbeliuk@gmail.com
+            {{ email }}
           </p>
         </div>
       </div>
@@ -87,7 +96,23 @@
   </div>
 </template>
 
-<script></script>
+<script setup>
+import { ref } from "vue";
+
+const email = ref("akmalbeliuk@gmail.com");
+const copied = ref(false);
+
+const copyClipboard = () => {
+  const emailElement = document.getElementById("email");
+  navigator.clipboard.writeText(emailElement.textContent);
+  email.value = "Copied!";
+  copied.value = true;
+  setTimeout(() => {
+    email.value = "akmalbeliuk@gmail.com";
+    copied.value = false;
+  }, 1000);
+};
+</script>
 
 <style lang="scss" scoped>
 .more {
