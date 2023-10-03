@@ -1,5 +1,7 @@
 <template>
-  <div class="introducing relative bg-[#000] h-[130vh] lg:h-screen">
+  <div
+    class="introducing relative bg-[#000] h-[130vh] lg:h-screen overflow-hidden"
+  >
     <div
       class="mx-4 md:mx-7 lg:mx-auto lg:max-w-[1064px] h-full flex justify-center items-center flex-col"
     >
@@ -53,7 +55,7 @@
       </svg>
     </div>
     <svg
-      class="rotate absolute top-[-15%] right-[-6%] hidden lg:block"
+      class="rotate absolute top-[-20%] right-[-7%] hidden lg:block"
       width="300"
       height="300"
       viewBox="0 0 227 226"
